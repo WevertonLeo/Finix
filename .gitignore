@@ -1,0 +1,26 @@
+# Dependências
+backend/vendor/
+frontend/node_modules/
+
+# Arquivos de ambiente (contém senhas!)
+backend/.env
+frontend/.env
+
+# Cache do Laravel
+backend/bootstrap/cache/*.php
+backend/storage/*.key
+
+# Logs
+backend/storage/logs/*
+
+# Build do frontend
+frontend/dist/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
